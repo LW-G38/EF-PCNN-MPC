@@ -1,6 +1,17 @@
 # EF-PCNN-MPC
 
-This repository contains a modified version of Physically Consistent Neural Networks (PCNNs) and associated MPC framework curated for the SDE4 Building at the National University of Singapore.
+This repository contains the code for the paper "Energy flexibility quantification of a tropical net-zero office building using physically consistent neural network-based model predictive control."
+
+This repository comprises a modified version of Physically Consistent Neural Networks (PCNNs) and associated MPC framework curated for the SDE4 Building at the National University of Singapore.
+
+## Installation
+After cloning the repository on your computer, go to the pcnn folder with `cd path_to_the_folder/pcnn`.  
+
+The fastest way to run the code is to use `poetry`, which can be installed from [here](https://python-poetry.org/docs/#installation).  
+You can then run `poetry install` to install all the required dependencies.  
+Once the dependencies are installed, you can for example run jupyter-lab with `poetry run jupiter lab` or VS code with `poetry run code .`.
+
+Alternatively, you can install requirements from `requirements.txt`.
 
 ## Citation
 If you find this repo useful, please consider citing the following paper:
